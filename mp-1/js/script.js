@@ -14,12 +14,9 @@ function updateResult(result) {
     let outputElement = document.getElementById("output");
     outputElement.innerHTML = "Result: " + result;
 
-    // If result is negative, change background to red
-    if (result < 0) {
-        outputElement.style.backgroundColor = "#ffcccb"; // Light red
-        outputElement.style.color = "black";
+    if (result < 0) { 
+        outputElement.style.color = "red";
     } else {
-        outputElement.style.backgroundColor = "transparent";
         outputElement.style.color = "black";
     }
 }
