@@ -54,7 +54,6 @@ function division() {
     }
 }
 
-// Power Function using For Loop (No Math.pow() or **)
 function power() {
     let numbers = getNumbers();
     if (numbers) {
@@ -76,7 +75,7 @@ function power() {
     }
 }
 
-// Clear Fields Function
+
 function clearFields() {
     document.getElementById("first-number").value = "";
     document.getElementById("second-number").value = "";
